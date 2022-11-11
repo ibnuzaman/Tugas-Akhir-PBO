@@ -30,18 +30,18 @@ public class Dosen extends Karyawan {
     }
 
     void displayDosen_Jurusan() {
-        System.out.println("No Induk Dosen  : " + this.nidn);
-        System.out.println("Jurusan Dosen   : " + this.jurusan);
+        System.out.println("No Induk Dosen\t: " + this.nidn);
+        System.out.println("Jurusan Dosen\t: " + this.jurusan);
     }
 
     void display() {
-        System.out.println("Nomor Pegawai   : " + this.nomorPegawai);
-        System.out.println("Nama            : " + this.nama);
-        System.out.println("Alamat          : " + this.alamat);
-        System.out.println("Lahir           : " + this.lahir);
-        System.out.println("Jenis Kelamin   : " + this.jenisKelamin);
-        System.out.println("Tahun Masuk     : " + this.tahunMasuk);
-        System.out.println("Gaji Pokok      : " + this.gaji);
+        System.out.println("Nomor Pegawai\t: " + this.nomorPegawai);
+        System.out.println("Nama\t\t: " + this.nama);
+        System.out.println("Alamat\t\t: " + this.alamat);
+        System.out.println("Lahir\t\t: " + this.lahir);
+        System.out.println("Jenis Kelamin\t: " + this.jenisKelamin);
+        System.out.println("Tahun Masuk\t: " + this.tahunMasuk);
+        System.out.println("Gaji Pokok\t: " + this.gaji);
     }
 
     @Override
@@ -55,7 +55,7 @@ public class Dosen extends Karyawan {
     }
 
     void displaygaji() {
-        System.out.println("Total Gaji       : Rp." + this.getLembur());
+        System.out.println("Total Gaji      : Rp." + this.getLembur());
     }
 
 }
